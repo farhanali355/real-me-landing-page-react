@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(243, 239, 239);
+}
+
+.navbar {
+    display: flex;
+    font-size: 15px;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+    background-attachment: fixed;
+}
+
+
+a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo-nav {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.section-img {
+    width: 100%;
+    height: 600px;
+}
+
+.section-img-h1 {
+    padding: 20px;
+    background-color: lightgray;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cards {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.card-center {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-btn {
+    background-color: rgb(16, 176, 230);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card-section-mid-nav {
+    background-color: rgb(235, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}
+
+.card-nav-link {
+    text-align: center;
+}
+
+.container-accescories {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+p {
+    color: gray;
+}
+
+a:hover {
+    color: grey;
+}
+
+.card-center img {
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.card-center img:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+/* footer  */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer-section a:hover {
+    color: white;
+}
